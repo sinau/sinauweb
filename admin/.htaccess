@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^dashboard$ index.php
+RewriteRule ^adm_(.*)$ index.php?menu=$1
+
